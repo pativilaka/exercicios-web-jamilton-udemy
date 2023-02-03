@@ -1,0 +1,40 @@
+/*Seletor Universal*/
+
+*{
+    border: 1px solid red;
+}
+
+/*Seletor de texto*/
+
+h1{
+    color: blue;
+}
+
+/*.verde{
+    color: green;
+}*/
+
+p.verde{
+    color: green;
+}
+
+#tit{
+    border: 2px solid blue;
+}
+
+li>a{
+    color: green;
+}
+
+div p{
+    color: blueviolet;
+}
+
+h1~p{
+    color: aqua;
+}
+
+h1+p{
+    border: 3px solid purple;
+}
+

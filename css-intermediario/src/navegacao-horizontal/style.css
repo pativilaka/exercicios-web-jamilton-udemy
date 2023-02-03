@@ -1,0 +1,38 @@
+ #nav-horizontal{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(assets/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul#nav-horizontal li{
+    float: left;
+    /*display: inline; >> por experiência professor orienta elemntos flutuantes, pois haverá menos problemas no browser*/
+}
+
+ul#nav-horizontal a{
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    background: url(assets/divisor.png) repeat-y left top;
+    /*border-left: 1px solid gray; >> alterantiva de divisor*/ 
+}
+
+ul#nav-horizontal .primeiro a{
+    background: none;
+}
+
+ul#nav-horizontal a:hover{
+    color: #085662;
+    background-color: #44cade;
+}
+
+#home #nav-horizontal .home a,
+#sobre #nav-horizontal .sobre a{
+    color: #085662;
+    background-color: #44cade;
+}

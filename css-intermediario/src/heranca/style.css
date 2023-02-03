@@ -1,0 +1,36 @@
+/*herança*/
+/*body{
+    color: red;
+    border: 1px solid blue;
+    background-color: lightgray;
+}
+
+.pagina{
+    background-color: aqua;
+}*/
+
+/*Especificidade*/
+
+/*#pagina p{
+    color: blueviolet !important;
+}
+
+#pagina p{
+    color: blue;
+}*/
+
+*{
+    color: brown;
+}
+
+h2{/*1*/
+    color: aqua;
+}
+
+h2.verde{/*2*/
+    color: green;
+}
+
+h2#amarelo{/*3*/
+    color: yellow;
+}

@@ -1,0 +1,34 @@
+body{
+    background-color: lightgrey;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul a{
+    width: 200px; /*tamanho da img que será usada*/
+    height: 40px; /*tamanho da img que será usada*/
+    line-height: 40px; /*tem a mesma altura */
+    display: block;
+    text-indent: 40px;
+    background: #f7b600 url(assets/menu.png) left;
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover{
+    background-position: right;
+    background-color: #f99200;
+    color: white;
+}
+
+#home #nav-lateral .home a,
+#sobre #nav-lateral .sobre a{
+    background-position: right;
+    background-color: #f99200;
+    color: white;
+}

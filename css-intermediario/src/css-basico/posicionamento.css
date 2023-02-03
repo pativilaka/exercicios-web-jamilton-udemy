@@ -1,0 +1,20 @@
+body{
+    background: #007fc7;
+}
+
+p{
+    width: 300px;
+}
+
+.relative{
+    border: 1px solid red;
+    position: relative;
+    top: 20px;
+}
+
+#container {
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
