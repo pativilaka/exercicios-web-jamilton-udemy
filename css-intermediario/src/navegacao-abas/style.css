@@ -1,0 +1,38 @@
+body{
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 720;
+}
+
+ul li{
+    
+    float: left;
+    background: url(assets/aba-direita.png) no-repeat top right;
+    
+}
+
+li a{
+    background: url(assets/aba-esquerda.png) no-repeat top left;
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover{
+    color: #894a1f;
+}
+
+ul #atual{
+    background: url(assets/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a{
+    background: url(assets/aba-esquerda-atual.png) no-repeat top left;
+}   
