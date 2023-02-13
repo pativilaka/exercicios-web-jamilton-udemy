@@ -1,0 +1,49 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    background-color: #b9c941;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    float: left;
+}
+
+#caixa2 {
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: #b9c941;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 90px; 
+    /*-webkit-border-radius: 20px 90px; 
+    -moz-border-radius: 20px 90px; */
+}
+
+.arredondamento{
+    /*Se a imagem não tiver a mesma altura e a mesma largura ficará distorcida*/
+    width: 300px;
+    height: 300px;
+    background-color: #b9c941;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 150px;
+}
+
+#caixa-box {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: #b9c941;
+    padding: 50px;
+}
+
+#caixa-box2 {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: #b9c941;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+}

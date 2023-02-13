@@ -1,0 +1,61 @@
+#conteudo{
+    background-color: #dcdcdc;
+    height: 600px;
+    display: flex;
+    /*row / row-reverse / column / column-reverse*/
+    /*flex-direction: row;*/
+
+    /*nowrap / wrap / wrap-reverse >> define se eles quebrarão para a próxima linha ou não*/
+    /*flex-wrap: no-wrap;*/
+
+    /*flex-start / flex-end / center / space-between / space-around >> alinha os elementos na horizontal*/
+    /*justify-content: space-around;*/
+
+    /*stretch (adota o tamanho do container 600px) / center / flex-start / flex-end / base-line (alinhamento com o conteúdo*/
+    /*align-items: baseline;*/
+}
+
+
+.item{
+    background-color: white;
+    border: 1px solid gray;
+    margin: 10px;
+    /*width: 200px;*/
+    height: 100px;
+
+    /*Define a proporção de espaço ocupado por um ítem*/
+    flex-grow: 0;
+
+    /*Define a capacidade de redução de tamanho do ítem - vejo na redução de tela*/
+    flex-shrink: 1;
+
+    /*Indica o tamanho  inicial do flex item antes da distribuição do espaço restante >> praticamente substitui o width do container se o valor for determinado*/
+    flex-basis: 100px;
+}
+
+
+.item1{
+    flex-grow: 1;
+    /*flex-shrink: 1;*/
+}
+
+.item2{
+    /*flex-grow: 2; quanto maior o número maior o espaço disponível*/
+    /*flex-shrink: 5;*/
+}
+
+/*.ordem1{
+    order: 1;
+}
+
+.ordem2{
+    order: 2;
+}
+
+.ordem3{
+    order: 3;
+}
+
+.ordem4{
+    order: 4; valor padrão 0 >> se valor for -1 ele ficará primeiro 
+}*/
